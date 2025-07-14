@@ -31,7 +31,7 @@
   --color-negroni-200: #f6e8da;
   --color-negroni-300: #f2deca;
   --color-negroni-400: #edd1b5;
-  --color-negroni-500: #e9c7a5; /* Default */
+  --color-negroni-500: #ff6d36; /* Default */
   --color-negroni-600: #d99e63;
   --color-negroni-700: #c1782f;
   --color-negroni-800: #7f4f1f;
@@ -44,6 +44,6 @@
 @supports (font-variation-settings: normal) {
   /* Use variable font if supported */
   :root {
-    font-family: InterVariable, sans-serif;
+    font-family: roboto, regular;
   }
 }
